@@ -79,7 +79,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 {
   "admin": {
     "id": "admin001",
-    "email": "admin@ems.com",
+    "email": "admin@me.com",
     "password": "123"
   }
 }
@@ -90,7 +90,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
   {
     "id": "emp001",
     "firstName": "Amit",
-    "email": "amit@ems.com",
+    "email": "emp1@example.com",
     "password": "123",
     "tasks": [ ... ]
   },
