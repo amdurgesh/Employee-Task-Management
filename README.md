@@ -50,7 +50,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 
 ### 👨‍💼 Admin Panel
 
-- ✅ Login (hardcoded/demo)
+- ✅ Login Page
 
 - ✅ View list of all employees
 
@@ -68,8 +68,6 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 - ✅ View assigned tasks
 
 - ✅ Mark task as active, completed, or failed
-
-- ✅ Filter tasks by status or date.
 
 
 
