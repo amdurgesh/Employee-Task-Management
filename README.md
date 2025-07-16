@@ -1,12 +1,102 @@
-# React + Vite
+# 🚀 EMS Employee Task Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight React + Tailwind CSS application that provides a simplified Employee Task Management System. Built for learning and demonstration purposes, it supports Admin and Employee roles with functionality to assign, track, and manage daily tasks.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Project Overview
 
-## Expanding the ESLint configuration
+- This EMS (Employee Management System) Task Manager allows:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Admins to assign tasks.
+
+- Employees to view, update, and mark their tasks.
+
+- Role-based access control.
+
+- Task status tracking: New, Active, Completed, and Failed.
+
+
+
+## 🛠 Tech Stack
+
+| Technology   | Purpose/Use                          |
+|--------------|--------------------------------------|
+| React.js     | Frontend JavaScript framework        |
+| Tailwind CSS | Utility-first CSS styling framework  |
+| Vite         | Development/build tool for React     |
+| JSON         | Mock data storage for users & tasks  |
+
+
+
+## 👥 User Roles
+
+| 👤 Role     | 🧩 Permissions                                                                 |
+|-------------|--------------------------------------------------------------------------------|
+| 👨‍💼 Admin   | - View all employees<br> - Assign tasks<br> - Monitor task statuses |
+| 👷 Employee | - View own tasks<br> - Update task status<br> - Read task details               |
+
+
+## 📊 Task Statuses
+
+| 🏷 Status     | 📝 Description                                |
+|---------------|-----------------------------------------------|
+| 🆕 New         | Task has been assigned but not yet started    |
+| 🚧 Active      | Task is currently in progress                 |
+| ✅ Completed   | Task has been successfully completed          |
+| ❌ Failed      | Task was not completed or was overdue         |
+
+
+## 📋 Features
+
+### 👨‍💼 Admin Panel
+
+- ✅ Login (hardcoded/demo)
+
+- ✅ View list of all employees
+
+- ✅ Assign new tasks to employees
+
+- ✅ Track progress of all tasks
+
+- ✅ View task counts by status (active, completed, etc.)
+
+
+### 👷 Employee Panel
+
+- ✅ Login with email/password
+
+- ✅ View assigned tasks
+
+- ✅ Mark task as active, completed, or failed
+
+- ✅ Filter tasks by status or date.
+
+
+
+
+## 📊 Sample Admin JSON
+
+{
+  "admin": {
+    "id": "admin001",
+    "email": "admin@ems.com",
+    "password": "123"
+  }
+}
+
+## 👥 Sample Employees JSON
+
+[
+  {
+    "id": "emp001",
+    "firstName": "Amit",
+    "email": "amit@ems.com",
+    "password": "123",
+    "tasks": [ ... ]
+  },
+]
+
+# 🔍Purpose:
+
+- No backend/server is connected;
+- this project is for frontend learning only.
