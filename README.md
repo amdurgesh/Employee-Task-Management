@@ -2,6 +2,7 @@
 
 A lightweight React + Tailwind CSS application that provides a simplified Employee Task Management System. Built for learning and demonstration purposes, it supports Admin and Employee roles with functionality to assign, track, and manage daily tasks.
 
+---
 
 ## 📌 Project Overview
 
@@ -15,7 +16,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 
 - Task status tracking: New, Active, Completed, and Failed.
 
-
+---
 
 ## 🛠 Tech Stack
 
@@ -26,7 +27,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 | Vite         | Development/build tool for React     |
 | JSON         | Mock data storage for users & tasks  |
 
-
+---
 
 ## 👥 User Roles
 
@@ -35,6 +36,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 | 👨‍💼 Admin   | - View all employees<br> - Assign tasks<br> - Monitor task statuses |
 | 👷 Employee | - View own tasks<br> - Update task status<br> - Read task details               |
 
+---
 
 ## 📊 Task Statuses
 
@@ -45,6 +47,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 | ✅ Completed   | Task has been successfully completed          |
 | ❌ Failed      | Task was not completed or was overdue         |
 
+---
 
 ## 📋 Features
 
@@ -60,6 +63,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 
 - ✅ View task counts by status (active, completed, etc.)
 
+---
 
 ### 👷 Employee Panel
 
@@ -69,8 +73,7 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
 
 - ✅ Mark task as active, completed, or failed
 
-
-
+---
 
 ## 📊 Sample Admin JSON
 
@@ -81,6 +84,8 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
     "password": "123"
   }
 }
+
+---
 
 ## 👥 Sample Employees JSON
 
@@ -94,7 +99,9 @@ A lightweight React + Tailwind CSS application that provides a simplified Employ
   },
 ]
 
-# 🔍Purpose:
+---
+
+## 🔍Purpose:
 
 - No backend/server is connected;
 - this project is for frontend learning only.
